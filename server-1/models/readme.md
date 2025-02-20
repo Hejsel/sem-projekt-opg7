@@ -1,0 +1,1 @@
+Denne mappe indeholder filerne, der håndterer data. Hvis du arbejder med en database, vil du have dine databasemodeller her.

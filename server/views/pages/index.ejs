@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Forside</title>
+</head>
+<body>
+    <h1>IBA trivsels undersøgelse</h1>
+    <p>Tak, fordi du vil hjælpe IBA med at blive klogere på, hvordan vi kan optimere undervisningen på vores fag. <br> Klik på (FEEDBACK) for at besvare vores spørgeskema.</p>
+
+    <a href="<%= originalUrl %>?showform=true">FEEDBACK</a>
+
+    <% if (query.showform) { %>
+        <%- include('../pages/feedbackForm'); %>
+    <% } %>
+</body>
+</html>

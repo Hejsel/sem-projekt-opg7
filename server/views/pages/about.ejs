@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Om os</title>
+</head>
+<body>
+    <h1>Velkommen til Om os!</h1>
+    <!-- Dynamisk genereret link baseret på den oprindelige URL -->
+    <a href="<%= originalUrl %>?showform=true">Klik her for at give feedback</a>
+
+    <% if (query.showform === 'true') { %>
+        <%- include('../pages/feedbackForm'); %>
+    <% } %>
+</body>
+</html>

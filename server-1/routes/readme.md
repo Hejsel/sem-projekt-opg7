@@ -1,0 +1,1 @@
+Her definerer du dine ruter. I MVC er ruterne ansvarlige for at lytte på URL'er og sende anmodninger videre til controllerne.
