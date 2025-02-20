@@ -1,1 +1,0 @@
-Her opbevarer du dine EJS-skabeloner. De er de faktiske HTML-sider, der bliver dynamisk genereret af serveren.

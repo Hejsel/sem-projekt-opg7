@@ -1,1 +1,0 @@
-I denne mappe opretter du dine controller-filer. Her definerer du, hvordan du håndterer ruterne og interagerer med view og model.
